@@ -2,7 +2,7 @@
 
 /**
  * selection_sort - sorts the array in selected
- * @array: the array to sort 
+ * @array: the array to sort
  * @size: size of the array
  */
 
@@ -21,7 +21,7 @@ void selection_sort(int *array, size_t size)
 				if (array[j] < array[min])
 					min = j;
 			}
-				
+
 			if (min != i)
 			{
 				temp = array[i];
